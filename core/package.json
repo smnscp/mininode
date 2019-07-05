@@ -1,0 +1,31 @@
+{
+  "name": "mininode-core",
+  "version": "0.0.1",
+  "description": "Minimal Node.js Test Setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "smnscp",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

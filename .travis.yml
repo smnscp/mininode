@@ -1,0 +1,9 @@
+language: node_js
+
+before_install:
+  - cd core
+
+install:
+  - npm install
+
+script: npm test
