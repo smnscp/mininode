@@ -1,12 +1,19 @@
 language: node_js
 
 node_js:
-  - 10
+- 10
 
 before_install:
-  - cd core
+# Actual project is in sub-directory.
+- cd core
 
 install:
-  - npm install
+# Default value.
+- npm install
 
+# Default value.
 script: npm test
+
+branches:
+  only:
+  - master
